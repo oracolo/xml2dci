@@ -45,9 +45,6 @@ if (len(args) > 0):
                     csvFile.write(person.getAttribute('person') + '\n')
                     count += 1
 
-        #for person in torneo.getElementsByTagName('person'):
-        #    csvFile.write(person.getAttribute('id') + '\n')
-            
         csvFile.close()
         print("%d record(s) exported" % count)
 else:
